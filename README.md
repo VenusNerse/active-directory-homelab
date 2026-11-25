@@ -22,8 +22,7 @@ What I did, why, and a screenshot.
 
 ## Problems I Ran Into
 | Problem | Cause | Fix |
-|---|---|---|
-|  |  |  |
+The static IP wouldn't apply and the connection kept failing.| The connection was controlled by Netplan, which overrode the nmcli changes.| Deleted the netplan connection and created a new static one with nmcli.
 
 ## Skills Demonstrated
 - Active Directory, DNS, Group Policy, Kerberos, Linux CLI, PowerShell
